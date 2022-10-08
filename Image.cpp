@@ -1,5 +1,6 @@
 #define STB_IMAGE_IMPLEMENTATION
 #define STB_IMAGE_WRITE_IMplementation
+#define BYTE_BOUND(value) value < 0 ? 0 : (value > 255 ? 255 : value)
 #include "Image.h"
 #include "stb_image.h"
 #include "stb_image_write.h"
