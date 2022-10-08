@@ -31,22 +31,22 @@
 }
     bool Image::write(const char* filename) {
 	ImageType type = get_file_type(filename);
-	int success;
+	int confirmed;
   switch (type) {
     case PNG:
-      success = stbi_write_png(filename, w, h, channels, data, w*channels);
+      confirmed = stbi_write_png(filename, w, h, channels, data, w*channels);
       break;
     case BMP:
-      success = stbi_write_bmp(filename, w, h, channels, data);
+      confirmed = stbi_write_bmp(filename, w, h, channels, data);
       break;
     case JPG:
-      success = stbi_write_jpg(filename, w, h, channels, data, 100);
+      confirmed = stbi_write_jpg(filename, w, h, channels, data, 100);
       break;
     case TGA:
-      success = stbi_write_tga(filename, w, h, channels, data);
+      confirmed = stbi_write_tga(filename, w, h, channels, data);
       break;
   }
-  if(success != 0) {
+  if(confirmed != 0) {
     printf("\e[32mWrote \e[36m%s\e[0m, %d, %d, %d, %zu\n", filename, w, h, channels, size);
     return true;
   }
