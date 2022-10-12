@@ -8,7 +8,7 @@ then add 20, and add 128.
 
 Inserted with Image Height and Width 750 x 500
 
-                                                            Compiled and Ran With
+Compiled and Ran with the snippet below
 _________________________________________________________________________________________________________________________________________________________
 <img width="202" alt="Screen Shot 2022-10-12 at 6 08 10 PM" src="https://user-images.githubusercontent.com/25121761/195457212-36bcf40c-f2eb-4279-b5c8-f9c1d38aa69a.png">
 
