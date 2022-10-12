@@ -1,4 +1,7 @@
-#include "Image.h"
+#include <stdint.h>
+#include <cstdio>
+#include <complex>
+#include <cmath>
 
 int main(){
     int H = 750;
