@@ -20,7 +20,7 @@ int main(){
             a = buffer[i][j];
             b = buffer[i][j];
             c = buffer[i][j];
-            outimageReverse[i][j] = 255 - a;
+            outimageReverse[i][j] = a - 255;
             outimageAddLess[i][j] = b + 20;
             outimageAddMore[i][j] = c + 128;
             //outimage[i][j] = a;
