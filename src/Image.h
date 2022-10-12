@@ -3,6 +3,9 @@
 #include <complex>
 #include <cmath>
 
+
+
+/*
 #undef __STRICT_ANSI__
 #define _USE_MATH_DEFINES 
 #ifndef M_PI
@@ -37,3 +40,4 @@ struct Image {
 	Image& flipX();
 	Image& flipY();
 };
+*/
