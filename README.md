@@ -1,5 +1,5 @@
 # imageprocessing
-10/12/2022 : Finished Raw Binary Data Image Processing in C++
+Finished Raw Binary Data Image Processing in C++
 The driver for this program is main.cpp in src
 
 This assignment was to process raw binary data of images.
