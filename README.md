@@ -6,6 +6,8 @@ This assignment was to process raw binary data of images.
 Specifically display buffer overflow via taking each pixel and subtracting 255 from its value,
 then add 20, and add 128. 
 
+Inserted with Image Height and Width
+
 Compiled with
               gcc main.cpp -o test
 Ran with
