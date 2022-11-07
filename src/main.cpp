@@ -4,8 +4,8 @@
 #include <cmath>
 
 int main(){
-    int H = 750;
-    int W = 500;
+    int H = 500;
+    int W = 750;
     int i = 0;
     int j = 0;
     int a = 0, b = 0, c = 0;
